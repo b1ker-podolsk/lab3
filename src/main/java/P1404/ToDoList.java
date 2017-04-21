@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ToDoList {
-    int lengh = 0;
+    private int lengh = 0;
 
-    ArrayList<Message> aList = new ArrayList<>();
+    private ArrayList<Message> aList = new ArrayList<>();
 
 
     public  int add(String mes){
